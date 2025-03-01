@@ -1,3 +1,9 @@
+# This code has to do with learning about functions and how to define them.
+# In this code, I defined a function called list_to_string.
+# The list_to_string function is meant to output a string of usernames from a previously defined username_list variable.
+
+
+
 # Define a function named `list_to_string()`
 
 def list_to_string():
