@@ -1,0 +1,19 @@
+# This code has to do with using parameters and functions within functions.
+# In this code, I defined a function called analyze_logins.
+# The analyze_logins function is meant to output a string with the arguments set by the parameters.
+# The output ends up being "Current day login total for ejones is 9"
+
+
+
+
+# Define a function named `analyze_logins()` that takes in two parameters, `username` and `current_day_logins`
+
+def analyze_logins(username, current_day_logins):
+
+    # Display a message about how many login attempts the user has made that day
+
+    print("Current day login total for", username, "is", current_day_logins)
+
+# Call `analyze_logins()`
+
+analyze_logins("ejones", 9)
